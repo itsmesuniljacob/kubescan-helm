@@ -1,0 +1,13 @@
+name: "conftest"
+version: "2.11.2"
+usage: "Test Helm Charts"
+description: |-
+  "Kubesec scan"
+command: "$HELM_PLUGIN_DIR/scripts/run.sh"
+
+hooks:
+  install: "cd $HELM_PLUGIN_DIR; ./scripts/install.sh"
+  update: "cd $HELM_PLUGIN_DIR; ./scripts/install.sh"
+
+ignoreFlags: false
+useTunnel: false
