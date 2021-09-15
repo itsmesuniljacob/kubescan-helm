@@ -1,4 +1,4 @@
-name: "conftest"
+name: "kubesec"
 version: "2.11.2"
 usage: "Test Helm Charts"
 description: |-
