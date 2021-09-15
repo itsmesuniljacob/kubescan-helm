@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: ebomart/kubescan-action@v0.1.0
+        uses: ebomart/kubescan-action@v0.1.1
